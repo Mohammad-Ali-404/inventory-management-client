@@ -1,9 +1,13 @@
 import React from 'react';
+import Container from '../../../Shared/Container/Container';
 
 const Banner = () => {
     return (
         <div>
-            Banner
+            <Container>
+                            Banner
+
+            </Container>
         </div>
     );
 };
