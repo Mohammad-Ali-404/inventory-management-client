@@ -1,17 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/LOGO.png'
 import { LuMenuSquare } from "react-icons/lu";
 import { GoSearch } from "react-icons/go";
 import { TiShoppingCart } from "react-icons/ti";
 
 const Navbar = () => {
-    const navbar = 
-        <>
-            <Link to='/'><li><a>Home</a></li></Link>
-            <Link to='about'><li><a>About Us</a></li></Link>
-            <Link to='contact'><li><a>Contact</a></li></Link>
-        </>
+    const location = useLocation()
     return (
         <div className="navbar bg-base-200 sm:px-10 ">
             <div className="navbar-start sm:justify-between md:justify-start s">
@@ -28,7 +23,12 @@ const Navbar = () => {
             <div className="navbar-end">
                 <div className="navbar-center hidden lg:flex gap-0 pr-10">
                     <ul className="menu menu-horizontal flex items-center px-1">
-                        {navbar}
+                        <Link  className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/"
+                         ? "!text-blue-500" : "text-gray-800"}`} to='/'>
+                            <li><a>Home</a></li>
+                        </Link>
+                        <Link to='about'><li><a>About Us</a></li></Link>
+                        <Link to='contact'><li><a>Contact</a></li></Link>
                     </ul>
                 </div>
                 <Link><TiShoppingCart className='text-2xl mr-5'/></Link>
@@ -44,7 +44,9 @@ const Navbar = () => {
                         <div className="drawer-side">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu p-4 sm:w-80 md:w-72 w-60 min-h-full bg-base-200 text-base-content">
-                                {navbar}
+                            <Link to='/'><li><a>Home</a></li></Link>
+                            <Link to='about'><li><a>About Us</a></li></Link>
+                            <Link to='contact'><li><a>Contact</a></li></Link>
                             </ul>
                         </div>
                     </div>
