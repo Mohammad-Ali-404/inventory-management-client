@@ -1,0 +1,32 @@
+[
+      {
+        "id": 1,
+        "image_url": "https://example.com/banner1.jpg",
+        "title": "Special Offer",
+        "description": "Get 20% off on selected items. Limited time offer!",
+        "link": "https://example.com/special-offer"
+      },
+      {
+        "id": 2,
+        "image_url": "https://example.com/banner2.jpg",
+        "title": "New Arrivals",
+        "description": "Discover the latest trends in Gadget and Gear.",
+        "link": "https://example.com/new-arrivals"
+      },
+      {
+        "id": 3,
+        "image_url": "https://example.com/banner3.jpg",
+        "title": "Summer Sale",
+        "description": "The Best Electronics Shop For Online Purchase",
+        "link": "https://example.com/summer-sale"
+      },
+      {
+        "id": 4,
+        "image_url": "https://example.com/banner4.jpg",
+        "title": "Clearance Event",
+        "description": "Don't miss out on amazing deals in our clearance event.",
+        "link": "https://example.com/clearance-event"
+      }
+    ]
+
+  
