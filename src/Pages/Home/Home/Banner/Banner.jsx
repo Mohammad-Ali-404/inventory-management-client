@@ -16,7 +16,7 @@ const Banner = () => {
     return (
         <div>
             <Container>
-                <>
+                <div>
                     <Swiper
                         effect={'fade'}
                         navigation={true}
@@ -28,7 +28,7 @@ const Banner = () => {
                         className="mySwiper"
                     >
                             <SwiperSlide>
-                            <img className='sm:h-[450px] h-64 w-full' src="https://i.ibb.co/dmy1vNH/events.jpg" />
+                            <img className='sm:h-[450px]  h-64 w-full' src="https://i.ibb.co/dmy1vNH/events.jpg" />
                             </SwiperSlide>
                             <SwiperSlide>
                             <img  className='sm:h-[450px] h-64 w-full' src="https://i.ibb.co/pPnLStt/laptop.jpg" />
@@ -37,7 +37,7 @@ const Banner = () => {
                             <img  className='sm:h-[450px] h-64 w-full' src="https://i.ibb.co/SNRZG1D/offer.jpg" />
                         </SwiperSlide>
                     </Swiper>
-                </>
+                </div>
                 <div>
                     <section className="p-6 my-4">
                         <div className="container grid grid-cols-2 gap-6 mx-auto xl:grid-cols-4">

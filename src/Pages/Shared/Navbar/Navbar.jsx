@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link to='contact'><li><a>Contact</a></li></Link>
         </>
     return (
-        <div className="navbar bg-base-200 sm:px-10">
+        <div className="navbar bg-base-200 sm:px-10 ">
             <div className="navbar-start sm:justify-between md:justify-start s">
                 <Link to='/'><img className='w-32' src={logo} alt="" /></Link>
                 <div className="relative hidden sm:block">
