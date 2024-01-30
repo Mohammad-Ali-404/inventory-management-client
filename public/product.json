@@ -1,7 +1,7 @@
 [
     {
-        "title": "Sanung Laptop 14”, 8GB RAM, 1TB SSD",
-        "brand": "Sanung",
+        "title": "Samsung Laptop 14”, 8GB RAM, 1TB SSD",
+        "brand": "Samsung",
         "price": 899.99,
         "rating": 4.5,
         "warrantyPeriod": "2 years",
@@ -11,9 +11,9 @@
         "model": "S14-8-1",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/Fh2Mq4b/laptop3-removebg-preview.png",
         "category":"technology",
-        "description": "Experience superior performance with the Sanung Laptop 14”. Powered by 8GB of RAM and a spacious 1TB SSD, this laptop is designed to handle multitasking effortlessly. The 14-inch display delivers stunning visuals, making it perfect for work or entertainment. Packed with advanced features, it ensures a smooth and responsive computing experience. With a sleek design and portable form factor, this laptop is ideal for those on the go. Elevate your productivity and enjoy seamless computing with the Sanung Laptop 14”."
+        "description": "Experience superior performance with the Samsung Laptop 14”. Powered by 8GB of RAM and a spacious 1TB SSD, this laptop is designed to handle multitasking effortlessly. The 14-inch display delivers stunning visuals, making it perfect for work or entertainment. Packed with advanced features, it ensures a smooth and responsive computing experience. With a sleek design and portable form factor, this laptop is ideal for those on the go. Elevate your productivity and enjoy seamless computing with the Samsung Laptop 14”."
       },
       {
         "title": "TechMaster ProBook X1, 16GB RAM, 512GB SSD",
@@ -27,7 +27,7 @@
         "model": "X1-16-512",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/8zTCjkw/laptop-7-removebg-preview.png",
         "category":"technology",
         "description": "Introducing the TechMaster ProBook X1, a powerhouse of performance with 16GB of RAM and a lightning-fast 512GB SSD. Immerse yourself in a world of vibrant visuals on its 15.6-inch display. This laptop is perfect for professionals and content creators, offering reliability and efficiency. With a premium build and cutting-edge features, the ProBook X1 delivers an exceptional computing experience. Take your work and creativity to new heights with the TechMaster ProBook X1."
       },
@@ -43,7 +43,7 @@
         "model": "QB15-12-256",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/r739bCC/laptop6-removebg-preview.png",
         "category":"technology",
         "description": "Unleash the power of speed with the Quantum SpeedBook 15”. Featuring 12GB of RAM and a lightning-fast 256GB SSD, this laptop ensures seamless performance. The 15-inch display provides immersive visuals, making it perfect for both work and play. With a sleek and modern design, the SpeedBook combines style with functionality. Experience enhanced productivity and responsiveness with the Quantum SpeedBook 15”."
       },
@@ -59,7 +59,7 @@
         "model": "IE13-16-512",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/6wvDtkk/laptop-4-removebg-preview.png",
         "category":"technology",
         "description": "Introducing the Inova EliteBook 13”, a masterpiece of elegance and power. With 16GB of RAM and a lightning-fast 512GB NVMe SSD, this laptop is engineered for top-notch performance. The 13-inch display offers crisp visuals, ideal for professionals and creative enthusiasts. Sleek, slim, and sophisticated, the EliteBook is designed to leave a lasting impression. Elevate your computing experience with the Inova EliteBook 13”."
       },
@@ -75,7 +75,7 @@
         "model": "AF14-8-256",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/cr7YRQZ/laptop5-removebg-preview.png",
         "category":"technology",
         "description": "Experience the flexibility of the AeroFlex Ultrabook 14”. With 8GB of RAM and a speedy 256GB PCIe SSD, this laptop offers a perfect blend of performance and portability. The 14-inch display delivers vivid visuals in a compact form factor. The AeroFlex is designed for those who demand versatility without compromising on power. Stay productive on the go with the AeroFlex Ultrabook 14”."
       },
@@ -91,7 +91,7 @@
         "model": "SZ15-32-1TB",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/Fh2Mq4b/laptop3-removebg-preview.png",
         "category":"technology",
         "description": "Immerse yourself in the world of SwiftTech ZenBook 15”, a masterpiece of technology. Boasting 32GB of RAM and a massive 1TB NVMe SSD, this laptop sets the standard for high-performance computing. The 15-inch display offers stunning visuals, perfect for gaming and content creation. Crafted with precision, the ZenBook combines power with elegance. Unleash your creativity with the SwiftTech ZenBook 15”."
       },
@@ -107,7 +107,7 @@
         "model": "FA13-16-512",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/8zTCjkw/laptop-7-removebg-preview.png",
         "category":"technology",
         "description": "Experience the future of computing with the FuturaBook Air 13”. Featuring 16GB of RAM and a spacious 512GB SSD, this laptop offers a perfect balance of performance and portability. The 13-inch display delivers vibrant visuals, making it an ideal companion for professionals and students alike. Sleek, lightweight, and powerful, the FuturaBook Air 13” is designed to keep you ahead in the digital age."
       },
@@ -123,7 +123,7 @@
         "model": "PB17-64-2TB",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
         "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/r739bCC/laptop6-removebg-preview.png",
         "category":"technology",
         "description": "Ignite your computing experience with the Phoenix BlazeBook 17”. With a massive 64GB of RAM and a colossal 2TB SSD, this laptop redefines what's possible. The 17-inch display offers an immersive visual experience, perfect for gaming and demanding tasks. Designed for power users and enthusiasts, the BlazeBook combines raw power with cutting-edge features. Unleash the phoenix within with the Phoenix BlazeBook 17”."
       },
@@ -139,7 +139,7 @@
         "model": "SP15-16-1TB",
         "dimensions": "355(W) x 255(H) x 25(D) mm",
 "product_name":"Laptop",
-        "image":"",
+        "image":"https://i.ibb.co/Fh2Mq4b/laptop3-removebg-preview.png",
         "category":"technology",
         "description": "Dive into the future of computing with the SpectraVision Pro 15”. Featuring 16GB of RAM and a lightning-fast 1TB NVMe SSD, this laptop delivers uncompromising performance. The 15-inch display showcases stunning visuals, perfect for creative professionals and gamers. With a sleek and futuristic design, the SpectraVision Pro 15” is a statement of style and power. Elevate your digital experience with the SpectraVision Pro 15”."
       },
@@ -284,7 +284,7 @@
         "warrantyPeriod": 1,
         "countryOfOrigin": "USA",
         "product_name":"Drone",
-        "image":"",
+        "image":"https://i.ibb.co/WP28tXf/drone2-removebg-preview-1.png",
         "category":"technology"
       },
       {
@@ -300,7 +300,7 @@
         "warrantyPeriod": 2,
         "countryOfOrigin": "China",
         "product_name":"Drone",
-        "image":"",
+        "image":"https://i.ibb.co/nB3jqPr/drone3-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -316,7 +316,7 @@
         "warrantyPeriod": 1,
         "countryOfOrigin": "Germany",
         "product_name":"Drone",
-        "image":"",
+        "image":"https://i.ibb.co/MpFN1bD/drone4-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -332,7 +332,7 @@
         "warrantyPeriod": 2,
         "countryOfOrigin": "Japan",
         "product_name":"Drone",
-        "image":"",
+        "image":"https://i.ibb.co/cY7P0XG/drone-5-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -348,7 +348,7 @@
         "warrantyPeriod": 1,
         "countryOfOrigin": "South Korea",
         "product_name":"Drone",
-        "image":"",
+        "image":"https://i.ibb.co/zrs4cZK/drone-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -444,7 +444,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/3zTskzM/mobile1-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -460,7 +460,7 @@
         "warrantyPeriod": 18,
         "countryOfOrigin": "China",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/cbVpQ3n/mobile-6-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -476,7 +476,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/26YwD5J/mobile4-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -492,7 +492,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "South Korea",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/9rQs7pF/mobile-7-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -508,7 +508,7 @@
         "warrantyPeriod": 18,
         "countryOfOrigin": "China",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/mTssNb6/mobile-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -524,7 +524,7 @@
         "warrantyPeriod": 24,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/cbVpQ3n/mobile-6-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -540,7 +540,7 @@
         "warrantyPeriod": 24,
         "countryOfOrigin": "Japan",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/74DV9t1/mobile-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -556,7 +556,7 @@
         "warrantyPeriod": 18,
         "countryOfOrigin": "China",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/26YwD5J/mobile4-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -572,7 +572,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/74DV9t1/mobile-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -636,7 +636,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/26YwD5J/mobile4-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -652,7 +652,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/mTssNb6/mobile-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -700,7 +700,7 @@
         "warrantyPeriod": 12,
         "countryOfOrigin": "USA",
         "product_name":"Mobile",
-        "image":"",
+        "image":"https://i.ibb.co/mTssNb6/mobile-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -708,7 +708,7 @@
         "price": 2499.99,
         "rating": 4.5,
         "description": "Experience the power of the iMack Pro X, a high-performance desktop computer designed for professionals. With cutting-edge hardware and advanced features, this iMack delivers unparalleled speed and efficiency.",
-        "features": ["8-core Intel processor", "32GB RAM", "1TB SSD", "27-inch Retina 5K display"],
+        "features": "8-core Intel processor, 32GB RAM, 1TB SSD, 27-inch Retina 5K display",
         "color": "Space Gray",
         "brand": "iMack",
         "model": "Pro X",
@@ -716,7 +716,7 @@
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "USA",
         "product_name":"iMack",
-        "image":"",
+        "image":"https://i.ibb.co/C2yDv0s/mack-2-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -724,7 +724,7 @@
         "price": 1299.99,
         "rating": 4.7,
         "description": "The iMack Air M1 is the perfect blend of power and portability. Featuring the revolutionary Apple M1 chip, this iMack provides incredible performance in a sleek design. Ideal for creative professionals on the go.",
-        "features": ["Apple M1 chip", "16GB unified memory", "512GB SSD", "13.3-inch Retina display"],
+        "features": "Apple M1 chip, 16GB unified memory, 512GB SSD, 13.3-inch Retina display",
         "color": "Silver",
         "brand": "iMack",
         "model": "Air M1",
@@ -732,7 +732,7 @@
         "warrantyPeriod": "1 year",
         "countryOfOrigin": "China",
         "product_name":"iMack",
-        "image":"",
+        "image":"https://i.ibb.co/fkz0Sh1/mack3-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -740,7 +740,7 @@
         "price": 899.99,
         "rating": 4.3,
         "description": "Compact yet powerful, the iMack Mini is designed for versatility. Whether you need a home server or a media center, this iMack Mini delivers outstanding performance in a small form factor.",
-        "features": ["Quad-core Intel processor", "8GB RAM", "256GB SSD", "Intel UHD Graphics 630"],
+        "features": "Quad-core Intel processor, 8GB RAM, 256GB SSD, Intel UHD Graphics 630",
         "color": "Space Gray",
         "brand": "iMack",
         "model": "Mini",
@@ -748,7 +748,7 @@
         "warrantyPeriod": "1.5 years",
         "countryOfOrigin": "Taiwan",
         "product_name":"iMack",
-        "image":"",
+        "image":"https://i.ibb.co/cTkPm2g/mack-4-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -756,7 +756,7 @@
         "price": 3299.99,
         "rating": 4.8,
         "description": "Unleash your creativity with the iMack Studio Plus. Featuring a stunning 32-inch 6K Retina display and powerful graphics, this iMack is a dream for content creators and professionals in graphic design.",
-        "features": ["12-core Intel Xeon processor", "64GB ECC memory", "2TB SSD", "32-inch 6K Retina display"],
+        "features": "12-core Intel Xeon processor, 64GB ECC memory, 2TB SSD, 32-inch 6K Retina display",
         "color": "Silver",
         "brand": "iMack",
         "model": "Studio Plus",
@@ -764,7 +764,7 @@
         "warrantyPeriod": "3 years",
         "countryOfOrigin": "USA",
         "product_name":"iMack",
-        "image":"",
+        "image":"https://i.ibb.co/X5RkQ0S/mack-5-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -772,7 +772,7 @@
         "price": 1599.99,
         "rating": 4.6,
         "description": "Sleek and stylish, the iMack UltraSlim is designed for those who prioritize aesthetics without compromising performance. With a slim profile and powerful internals, it's the perfect addition to any modern workspace.",
-        "features": ["6-core Intel processor", "16GB RAM", "512GB SSD", "23.8-inch Full HD display"],
+        "features": "6-core Intel processor, 16GB RAM, 512GB SSD, 23.8-inch Full HD display",
         "color": "Rose Gold",
         "brand": "iMack",
         "model": "UltraSlim",
@@ -780,7 +780,7 @@
         "warrantyPeriod": "2.5 years",
         "countryOfOrigin": "Vietnam",
         "product_name":"iMack",
-        "image":"",
+        "image":"https://i.ibb.co/XSg3tS7/mack-removebg-preview.png",
         "category":"technology"
       },
       {
@@ -788,7 +788,7 @@
         "price": 1899.99,
         "rating": 4.4,
         "description": "The iMack PowerStation is a performance beast, equipped with a high-end graphics card for gaming and content creation. Dominate your tasks with this iMack built for power users.",
-        "features": ["10-core Intel processor", "32GB RAM", "1TB NVMe SSD", "NVIDIA GeForce RTX 3080"],
+        "features": "10-core Intel processor, 32GB RAM, 1TB NVMe SSD, NVIDIA GeForce RTX 3080",
         "color": "Matte Black",
         "brand": "iMack",
         "model": "PowerStation",
@@ -804,7 +804,7 @@
         "price": 1799.99,
         "rating": 4.7,
         "description": "Experience the iMack Book Pro, a versatile laptop that combines power and portability. With a stunning Retina display and powerful internals, it's the ideal companion for professionals on the move.",
-        "features": ["Intel Core i7 processor", "16GB RAM", "512GB SSD", "15.4-inch Retina display"],
+        "features": "Intel Core i7 processor, 16GB RAM, 512GB SSD, 15.4-inch Retina display",
         "color": "Space Gray",
         "brand": "iMack",
         "model": "Book Pro",
@@ -820,7 +820,7 @@
         "price": 2499.99,
         "rating": 4.6,
         "description": "The iMack Fusion is a sleek all-in-one desktop that seamlessly integrates power and style. Featuring a borderless display and powerful internals, it's a statement piece for any modern workspace.",
-        "features": ["8-core Intel processor", "32GB RAM", "1TB Fusion Drive", "27-inch 5K Retina display"],
+        "features": "8-core Intel processor, 32GB RAM, 1TB Fusion Drive, 27-inch 5K Retina display",
         "color": "Silver",
         "brand": "iMack",
         "model": "Fusion",
@@ -836,7 +836,7 @@
         "price": 1099.99,
         "rating": 4.5,
         "description": "Compact and powerful, the iMack Nano is designed for small spaces without compromising performance. Ideal for home offices or dorm rooms, this iMack is a space-saving powerhouse.",
-        "features": ["Quad-core Intel processor", "8GB RAM", "256GB SSD", "21.5-inch Full HD display"],
+        "features": "Quad-core Intel processor, 8GB RAM, 256GB SSD, 21.5-inch Full HD display",
         "color": "Space Gray",
         "brand": "iMack",
         "model": "Nano",
@@ -852,7 +852,7 @@
         "price": 2999.99,
         "rating": 4.8,
         "description": "For the ultimate creative experience, choose the iMack Creator. With a 30-inch 6K Retina display and powerful graphics, this iMack is tailor-made for photographers, video editors, and digital artists.",
-        "features": ["12-core Intel Xeon processor", "64GB ECC memory", "2TB SSD", "30-inch 6K Retina display"],
+        "features": "12-core Intel Xeon processor, 64GB ECC memory, 2TB SSD, 30-inch 6K Retina display",
         "color": "Silver",
         "brand": "iMack",
         "model": "Creator",
@@ -868,7 +868,7 @@
         "price": 1499.99,
         "rating": 4.6,
         "description": "The iMack SlimBook combines elegance with performance. Featuring a slim profile and powerful internals, this laptop is perfect for professionals who value both style and substance.",
-        "features": ["Intel Core i5 processor", "16GB RAM", "512GB SSD", "14-inch Full HD display"],
+        "features": "Intel Core i5 processor, 16GB RAM, 512GB SSD, 14-inch Full HD display",
         "color": "Rose Gold",
         "brand": "iMack",
         "model": "SlimBook",
@@ -884,7 +884,7 @@
         "price": 2699.99,
         "rating": 4.7,
         "description": "Dominate the gaming arena with the iMack Gaming Beast. Packed with a high-performance graphics card and a blazing-fast processor, this iMack is engineered for an immersive gaming experience.",
-        "features": ["Intel Core i9 processor", "32GB RAM", "1TB NVMe SSD", "NVIDIA GeForce RTX 3090"],
+        "features": "Intel Core i9 processor, 32GB RAM, 1TB NVMe SSD, NVIDIA GeForce RTX 3090",
         "color": "Matte Black",
         "brand": "iMack",
         "model": "Gaming Beast",
@@ -900,7 +900,7 @@
         "price": 999.99,
         "rating": 4.4,
         "description": "The iMack Essential is your go-to desktop for everyday tasks. With a reliable performance and a sleek design, this iMack is perfect for home use, school, or office work.",
-        "features": ["Quad-core Intel processor", "8GB RAM", "256GB SSD", "23.8-inch Full HD display"],
+        "features": "Quad-core Intel processor, 8GB RAM, 256GB SSD, 23.8-inch Full HD display",
         "color": "Silver",
         "brand": "iMack",
         "model": "Essential",
@@ -916,7 +916,7 @@
         "price": 1499.99,
         "rating": 4.6,
         "description": "Enhance your workspace with the iMack Pro Display. Featuring a 32-inch 6K Retina display, this monitor delivers stunning visuals and precise color accuracy, making it an ideal choice for professionals.",
-        "features": ["32-inch 6K Retina display", "True Tone technology", "P3 wide color gamut"],
+        "features": "32-inch 6K Retina display, True Tone technology, P3 wide color gamut",
         "color": "Space Gray",
         "brand": "iMack",
         "model": "Pro Display",
@@ -932,7 +932,7 @@
         "price": 1899.99,
         "rating": 4.7,
         "description": "Experience professional-grade performance in a compact form with the iMack Compact Pro. This desktop powerhouse is perfect for professionals who need a high-performance machine without sacrificing space.",
-        "features": ["10-core Intel processor", "32GB RAM", "1TB NVMe SSD", "27-inch 5K Retina display"],
+        "features": "10-core Intel processor, 32GB RAM, 1TB NVMe SSD, 27-inch 5K Retina display",
         "color": "Matte Black",
         "brand": "iMack",
         "model": "Compact Pro",
@@ -948,7 +948,7 @@
         "price": 799.99,
         "rating": 4.5,
         "description": "Experience energy efficiency and smart cooling with our Smart Inverter Refrigerator. This sleek appliance combines cutting-edge technology with a stylish design, making it a perfect addition to any modern kitchen.",
-        "features": ["Smart Inverter Compressor", "LED Display", "Multi-Air Flow System"],
+        "features": "Smart Inverter Compressor, LED Display, Multi-Air Flow System",
         "color": "Stainless Steel",
         "brand": "TechCool",
         "model": "TC-123",
@@ -964,7 +964,7 @@
         "price": 1299.99,
         "rating": 4.8,
         "description": "Upgrade your kitchen with our spacious French Door Refrigerator. Featuring ample storage, dual freezer drawers, and advanced temperature control, this refrigerator ensures your food stays fresher for longer.",
-        "features": ["French Door Design", "Dual Freezer Drawers", "Temperature Control"],
+        "features": "French Door Design, Dual Freezer Drawers, Temperature Control",
         "color": "Black Stainless",
         "brand": "CoolMaster",
         "model": "CM-456",
@@ -980,7 +980,7 @@
         "price": 499.99,
         "rating": 4.2,
         "description": "Save space without compromising on performance. Our Compact Counter-Depth Refrigerator is perfect for smaller kitchens, providing a sleek and efficient cooling solution with adjustable shelves and energy-saving features.",
-        "features": ["Counter-Depth Design", "Adjustable Shelves", "Energy Star Certified"],
+        "features": "Counter-Depth Design, Adjustable Shelves, Energy Star Certified",
         "color": "White",
         "brand": "EcoFreeze",
         "model": "EF-789",
@@ -996,7 +996,7 @@
         "price": 899.99,
         "rating": 4.6,
         "description": "Experience convenience and organization with our Side-by-Side Refrigerator. Featuring a spacious layout, water and ice dispenser, and advanced temperature control, this refrigerator is a perfect fit for any busy household.",
-        "features": ["Side-by-Side Doors", "Water and Ice Dispenser", "Temperature Control"],
+        "features": "Side-by-Side Doors, Water and Ice Dispenser, Temperature Control",
         "color": "Black",
         "brand": "HomeChill",
         "model": "HC-567",
@@ -1012,7 +1012,7 @@
         "price": 599.99,
         "rating": 4.3,
         "description": "Our Top Freezer Refrigerator offers a classic design with modern features. Enjoy convenient storage options, energy efficiency, and reliable cooling performance with this versatile appliance.",
-        "features": ["Top Freezer Design", "Adjustable Glass Shelves", "Energy Efficient"],
+        "features": "Top Freezer Design, Adjustable Glass Shelves, Energy Efficient",
         "color": "Silver",
         "brand": "CoolWave",
         "model": "CW-101",
@@ -1028,7 +1028,7 @@
         "price": 749.99,
         "rating": 4.7,
         "description": "Upgrade your kitchen with our Bottom Freezer Refrigerator. Featuring a spacious bottom freezer drawer, LED lighting, and customizable storage, this refrigerator provides convenience and style in one.",
-        "features": ["Bottom Freezer Drawer", "LED Lighting", "Customizable Storage"],
+        "features": "Bottom Freezer Drawer, LED Lighting, Customizable Storage",
         "color": "Slate Gray",
         "brand": "FreezeMaster",
         "model": "FM-202",
@@ -1044,7 +1044,7 @@
         "price": 1499.99,
         "rating": 4.9,
         "description": "Experience innovation with our Smart Door-in-Door Refrigerator. This high-tech appliance features a transparent door, smart connectivity, and customizable storage, providing an elegant solution for modern kitchens.",
-        "features": ["Smart Door-in-Door", "Smart Connectivity", "Customizable Storage"],
+        "features": "Smart Door-in-Door, Smart Connectivity, Customizable Storage",
         "color": "Platinum",
         "brand": "TechElite",
         "model": "TE-505",
@@ -1060,7 +1060,7 @@
         "price": 899.99,
         "rating": 4.5,
         "description": "Adapt to your storage needs with our Convertible Drawer Refrigerator. This versatile appliance allows you to switch between freezer and refrigerator modes, providing flexibility for different types of items.",
-        "features": ["Convertible Drawer", "LED Display", "Adjustable Temperature"],
+        "features": "Convertible Drawer, LED Display, Adjustable Temperature",
         "color": "Matte Black",
         "brand": "AdaptoCool",
         "model": "AC-303",
@@ -1076,7 +1076,7 @@
         "price": 699.99,
         "rating": 4.4,
         "description": "Add a touch of nostalgia to your kitchen with our Retro Style Refrigerator. This eye-catching appliance combines vintage aesthetics with modern features, offering a unique and stylish cooling solution.",
-        "features": ["Retro Design", "Chrome Accents", "Adjustable Glass Shelves"],
+        "features": "Retro Design, Chrome Accents, Adjustable Glass Shelves",
         "color": "Mint Green",
         "brand": "RetroChill",
         "model": "RC-101",
@@ -1092,7 +1092,7 @@
         "price": 849.99,
         "rating": 4.6,
         "description": "Maximize space without sacrificing features with our Slim Side-by-Side Refrigerator. This compact yet spacious appliance offers the convenience of side-by-side doors in a slim design, perfect for narrow kitchens.",
-        "features": ["Slim Design", "Water and Ice Dispenser", "Digital Controls"],
+        "features": "Slim Design, Water and Ice Dispenser, Digital Controls",
         "color": "Stainless Steel",
         "brand": "SlimFit",
         "model": "SF-202",
@@ -1108,7 +1108,7 @@
         "price": 1599.99,
         "rating": 4.8,
         "description": "For households with extensive storage needs, our High-Capacity French Door Refrigerator is the perfect choice. With adjustable shelves and spacious compartments, this refrigerator offers unparalleled storage space.",
-        "features": ["High Capacity", "French Door Design", "Twin Cooling System"],
+        "features": "High Capacity, French Door Design, Twin Cooling System",
         "color": "Black Stainless",
         "brand": "MegaCool",
         "model": "MC-789",
