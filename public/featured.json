@@ -1,0 +1,62 @@
+[
+      {
+        "id": 1,
+        "name": "Laptop",
+        "image": "https://i.ibb.co/jyG11cW/laptop.png"
+      },
+      {
+        "id": 2,
+        "name": "Camera",
+        "image": "https://i.ibb.co/T11C0RS/camera.png"
+      },
+      {
+        "id": 3,
+        "name": "Mobile",
+        "image": "https://i.ibb.co/KhsPMdC/mobile.png"
+      },
+      {
+        "id": 4,
+        "name": "Gaming Console",
+        "image": "https://i.ibb.co/4pk2Bqx/playstation.png"
+      },
+      {
+        "id": 5,
+        "name": "Airbuds",
+        "image": "https://i.ibb.co/zGwdhQg/airpods.png"
+      },
+      {
+        "id": 6,
+        "name": "Refrigerator",
+        "image": "https://i.ibb.co/dGhv8HS/smart-refrigerator.png"
+      },
+      {
+        "id": 7,
+        "name": "Bluetooth Speaker",
+        "image": "https://i.ibb.co/LhN7hWT/speaker.png"
+      },
+      {
+        "id": 8,
+        "name": "Drone",
+        "image": "https://i.ibb.co/WG1V49w/drone.png"
+      },
+      {
+        "id": 9,
+        "name": "Iron",
+        "image": "https://i.ibb.co/DwSNrKK/iron.png"
+      },
+      {
+        "id": 10,
+        "name": "Gimbal",
+        "image": "https://i.ibb.co/DQJZwYR/gimbal.png"
+      },
+      {
+        "id": 11,
+        "name": "Power Bank",
+        "image": "https://i.ibb.co/44wCGzp/power-bank.png"
+      },
+      {
+        "id": 12,
+        "name": "Headphones",
+        "image": "https://i.ibb.co/LJwL9Mm/headphones.png"
+      }
+    ]

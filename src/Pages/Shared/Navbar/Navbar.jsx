@@ -27,12 +27,16 @@ const Navbar = () => {
                          ? "!text-blue-500" : "text-gray-800"}`} to='/'>
                             <li><a>Home</a></li>
                         </Link>
-                        <Link to='about'><li><a>About Us</a></li></Link>
-                        <Link to='contact'><li><a>Contact</a></li></Link>
+                        <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/eletronics"
+                         ? "!text-blue-500" : "text-gray-800"}`} to='eletronics'><li><a>Electronics</a></li></Link>
+                        <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/gadget"
+                         ? "!text-blue-500" : "text-gray-800"}`} to='gadget'><li><a>Tech Gadget</a></li></Link>
+                        <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/contact"
+                         ? "!text-blue-500" : "text-gray-800"}`} to='contact'><li><a>Contact</a></li></Link>
                     </ul>
                 </div>
                 <Link><TiShoppingCart className='text-2xl mr-5'/></Link>
-                <a className="btn">Login</a>
+                <Link to='login' className="btn">Login</Link>
                 <div className="dropdown lg:hidden">
                     <div className="drawer drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
@@ -44,9 +48,17 @@ const Navbar = () => {
                         <div className="drawer-side">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu p-4 sm:w-80 md:w-72 w-60 min-h-full bg-base-200 text-base-content">
-                            <Link to='/'><li><a>Home</a></li></Link>
-                            <Link to='about'><li><a>About Us</a></li></Link>
-                            <Link to='contact'><li><a>Contact</a></li></Link>
+                                <Link  className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/"
+                                ? "!text-blue-500" : "text-gray-800"}`} to='/'>
+                                    <li><a>Home</a></li>
+                                </Link>
+                                <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/eletronics"
+                                ? "!text-blue-500" : "text-gray-800"}`} to='eletronics'><li><a>Electronics</a></li></Link>
+                                <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/gadget"
+                                ? "!text-blue-500" : "text-gray-800"}`} to='gadget'><li><a>Tech Gadget</a></li></Link>
+                                <Link className={`flex items-center text-sm xl:text-base gap-1 py-2 pr-4 font-medium !bg-transparent  ${ location.pathname === "/contact"
+                                ? "!text-blue-500" : "text-gray-800"}`} to='contact'><li><a>Contact</a></li>
+                                </Link>
                             </ul>
                         </div>
                     </div>
