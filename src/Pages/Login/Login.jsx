@@ -4,10 +4,16 @@ import { FaGoogle } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { BsTelephoneFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Login = () => {
     return (
         <div className='my-10'>
+             <HelmetProvider>
+                <Helmet>
+                    <title>Login</title>
+                </Helmet>
+            </HelmetProvider>
             <div className="flex flex-col sm:max-w-xl max-w-md m p-6 rounded-md sm:p-10 bg-slate-100 mx-auto shadow-md shadow-slate-200">
                 <div className="text-center">
                     <h1 className="my-3 sm:text-3xl text-2xl font-semibold border-b-2 py-2 border-gray-300 w-2/4  mx-auto">SIGN IN / LOGIN</h1>

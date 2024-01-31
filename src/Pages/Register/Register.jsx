@@ -1,9 +1,16 @@
 import React from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
         <div className='my-10'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Register</title>
+                </Helmet>
+            </HelmetProvider>
+           
         <div className="flex flex-col sm:max-w-xl max-w-md m p-6 rounded-md sm:p-10 bg-slate-100 mx-auto shadow-md shadow-slate-200">
             <div className="text-center">
                 <h1 className="my-3 sm:text-2xl text-xl font-semibold border-b-2 py-2 border-gray-300 w-2/4  mx-auto">SIGN UP / REGISTER</h1>
