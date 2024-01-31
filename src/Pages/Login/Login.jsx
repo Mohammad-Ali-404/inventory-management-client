@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { BsTelephoneFill } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -36,7 +37,7 @@ const Login = () => {
                             <button type="button" className="w-full px-8 py-2 font-semibold rounded-md bg-white hover:bg-blue-400 duration-500 border-2 border-blue-400 hover:border-gray-200">Sign in</button>
                         </div>
                         <p className="px-6 text-sm text-center py-4">Don't have an account yet?
-                            <a rel="noopener noreferrer" href="#" className="hover:underline dark:text-violet-400">Sign up</a>.
+                            <Link to='/register' rel="noopener noreferrer" href="#" className="hover:underline dark:text-violet-400">Sign up</Link>.
                         </p>
                     </div>
                 </form>
