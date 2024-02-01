@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/LOGO.png'
 import { LuMenuSquare } from "react-icons/lu";
 import { GoSearch } from "react-icons/go";
 import { TiShoppingCart } from "react-icons/ti";
+import { AuthContext } from '../../../Providers/AuthProvider';
+import ProfileDropdown from '../../../components/ProfileDropdown/ProfileDropdown';
 
 const Navbar = () => {
     const location = useLocation()
+    const {user} = useContext(AuthContext)
     return (
         <div className="navbar bg-base-200 sm:px-10 ">
             <div className="navbar-start sm:justify-between md:justify-start s">
@@ -36,8 +39,24 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link><TiShoppingCart className='text-2xl mr-5'/></Link>
-                <Link to='login' className="btn">Login</Link>
-                <div className="dropdown lg:hidden">
+                <div className="flex items-center gap-4 flex-shrink-0  ">
+                            
+                            {
+                                user ? <>
+                                <div className='z-10 inset-0 flex items-center gap-4'>
+                                        <ProfileDropdown/>
+                                        <div className='text-sm hidden sm:block'>
+                                            <h1 className='font-semibold'>{user?.displayName}</h1>
+                                            <h1>{user? <>User</> : <>Admin</>}</h1>
+                                        </div>
+                                    </div>
+                                </> : <>
+                                    <Link to='login'><button className="self-center sm:px-6 px-4 sm:py-3 py-1 font-semibold text-white bg-[#3b7d8d]  rounded-full shadow hover:bg-[#225258] transition-colors duration-700 hover:border-[#5996dd] border-gray-400 border mr-4">SIGN IN</button></Link>
+                                </>
+                            }           
+                        </div>
+
+                <div className="dropdown lg:hidden z-10 inset-0">
                     <div className="drawer drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-content">
