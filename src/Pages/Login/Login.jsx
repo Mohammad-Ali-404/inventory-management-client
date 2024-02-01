@@ -1,12 +1,43 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaFacebookF } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { BsTelephoneFill } from "react-icons/bs";
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { AuthContext } from '../../Providers/AuthProvider';
+import useAxiosSecure from '../../Hooks/UseAxiosSecure';
+import Swal from 'sweetalert2';
 
 const Login = () => {
+    const {signIn, handleGoogleLogin} = useContext(AuthContext)
+    const [axiosSecure] = useAxiosSecure()
+    const navigate = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || "/";
+    const handleLogin = event =>{
+        event.preventDefault()
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(email, password);
+
+        signIn(email, password)
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser);
+            Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Login Succssfully done',
+            showConfirmButton: false,
+            timer: 1500
+        })
+            form.reset()
+            navigate(from, {replace:true})
+
+        })
+    }
     return (
         <div className='my-10'>
              <HelmetProvider>
@@ -24,7 +55,7 @@ const Login = () => {
                     <button className='flex items-center gap-1 text-xl bg-[#e0793d] text-white py-2 px-6 rounded-md'><FaGoogle className='text-2xl'/>Google</button>
                 </div>
                 <p className='my-5 pt-2 mx-auto font-medium text-xl'>OR</p>
-                <form action="" className="space-y-12">
+                <form onSubmit={handleLogin} action="" className="space-y-12">
                     <div className="space-y-4">
                         <div>
                             <label className="block mb-2 text-sm">Email address</label>
@@ -40,7 +71,7 @@ const Login = () => {
                     </div>
                     <div className="space-y-2">
                         <div>
-                            <button type="button" className="w-full px-8 py-2 font-semibold rounded-md bg-white hover:bg-blue-400 duration-500 border-2 border-blue-400 hover:border-gray-200">Sign in</button>
+                            <button type="submit" className="w-full px-8 py-2 font-semibold rounded-md bg-white hover:bg-blue-400 duration-500 border-2 border-blue-400 hover:border-gray-200">Sign in</button>
                         </div>
                         <p className="px-6 text-sm text-center py-4">Don't have an account yet?
                             <Link to='/register' rel="noopener noreferrer" href="#" className="hover:underline dark:text-violet-400">Sign up</Link>.
