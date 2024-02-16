@@ -1,9 +1,11 @@
 /* eslint-disable react-refresh/only-export-components */
 import React, { createContext, useEffect, useState } from 'react'
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPhoneNumber, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import app from '../firebase/firebase.config';
 export const AuthContext = createContext(null);
 export const auth = getAuth(app);
+const googleProvider = new GoogleAuthProvider();
+const phoneNumber = getPhoneNumberFromUserInput();
 
 export default function AuthProvider({ children }) {
   const [user, setUser] = useState({})
@@ -20,6 +22,13 @@ export default function AuthProvider({ children }) {
     setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   }
+  const handleGoogleLogin = () =>{
+    return signInWithPopup(auth, googleProvider)
+ }
+ const phoneSignIn = () => {
+  setLoading(true);
+  return signInWithPhoneNumber(auth, phoneNumber);
+};
 
   const logOut = () => {
     setLoading(true);
@@ -49,6 +58,8 @@ useEffect(() => {
     loading,
     createUser,
     signIn,
+    handleGoogleLogin,
+    phoneSignIn,
     logOut,
     updateUserProfile
   }

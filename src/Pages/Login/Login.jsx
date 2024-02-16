@@ -8,6 +8,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { AuthContext } from '../../Providers/AuthProvider';
 import useAxiosSecure from '../../Hooks/UseAxiosSecure';
 import Swal from 'sweetalert2';
+import PhoneAuth from '../../components/PhoneAuth/PhoneAuth';
 
 const Login = () => {
     const {signIn, handleGoogleLogin} = useContext(AuthContext)
@@ -38,6 +39,33 @@ const Login = () => {
 
         })
     }
+    const GoogleLogin = () => {
+        handleGoogleLogin()
+         .then(result =>{
+            const loggedUser = result.user;
+            console.log(loggedUser)
+            const savedUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL }
+                axiosSecure.post('/users', savedUser)
+                  .then((response) => {
+                    // Handle the response here
+                    if (response.data.insertedId) {
+                      Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'User Login successfully.',
+                        showConfirmButton: false,
+                        timer: 1500,
+                      });
+                      navigate(from, {replace:true})
+                    }
+                  })
+                  .catch((error) => {
+                    // Handle errors here
+                    console.error('Error creating user:', error);
+                  })
+              .catch((error) => console.log(error));
+         })
+      };
     return (
         <div className='my-10'>
              <HelmetProvider>
@@ -52,7 +80,7 @@ const Login = () => {
                 </div>
                 <div className='flex justify-center gap-6 pt-8'>
                     <button className='flex items-center gap-1 text-xl bg-[#3d84e0] text-white py-2 px-6 rounded-md'><FaFacebookF className='text-2xl'/>Facebook</button>
-                    <button className='flex items-center gap-1 text-xl bg-[#e0793d] text-white py-2 px-6 rounded-md'><FaGoogle className='text-2xl'/>Google</button>
+                    <button onClick={GoogleLogin} className='flex items-center gap-1 text-xl bg-[#e0793d] text-white py-2 px-6 rounded-md'><FaGoogle className='text-2xl'/>Google</button>
                 </div>
                 <p className='my-5 pt-2 mx-auto font-medium text-xl'>OR</p>
                 <form onSubmit={handleLogin} action="" className="space-y-12">
@@ -81,7 +109,7 @@ const Login = () => {
                 <p className='mx-auto font-medium text-xl'>OR</p>
                 <div className='mx-auto'>
                     <button className='flex items-center gap-1 text-base bg-[#2b2a2ac7] text-white py-2 my-4 px-6 rounded-md'><FiGithub className='text-xl'/>Sign in with Github</button>
-                    <button className='flex items-center gap-1 text-base bg-[#2fb651] text-white py-2 px-6 rounded-md'><BsTelephoneFill className='text-xl'/>Sign in with phone</button>
+                    <PhoneAuth><button className='flex items-center gap-1 text-base bg-[#2fb651] text-white py-2 px-6 rounded-md'><BsTelephoneFill className='text-xl'/>Sign in with phone</button></PhoneAuth>
                 </div>
                 <p className='pt-2 mx-auto text-xs w-3/5 text-center mt-4'>By continuing, you are indicating that you accept our Terms of Service and Privacy Policy.
 </p>
