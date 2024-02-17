@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 import PhoneAuth from '../../components/PhoneAuth/PhoneAuth';
 
 const Login = () => {
-    const {signIn, handleGoogleLogin} = useContext(AuthContext)
+    const {signIn, handleGoogleLogin, handleGithubLogin} = useContext(AuthContext)
     const [axiosSecure] = useAxiosSecure()
     const navigate = useNavigate()
     const location = useLocation()
@@ -41,6 +41,33 @@ const Login = () => {
     }
     const GoogleLogin = () => {
         handleGoogleLogin()
+         .then(result =>{
+            const loggedUser = result.user;
+            console.log(loggedUser)
+            const savedUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL }
+                axiosSecure.post('/users', savedUser)
+                  .then((response) => {
+                    // Handle the response here
+                    if (response.data.insertedId) {
+                      Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'User Login successfully.',
+                        showConfirmButton: false,
+                        timer: 1500,
+                      });
+                      navigate(from, {replace:true})
+                    }
+                  })
+                  .catch((error) => {
+                    // Handle errors here
+                    console.error('Error creating user:', error);
+                  })
+              .catch((error) => console.log(error));
+         })
+      };
+    const GithubLogin = () => {
+        handleGithubLogin()
          .then(result =>{
             const loggedUser = result.user;
             console.log(loggedUser)
@@ -108,11 +135,12 @@ const Login = () => {
                 </form>
                 <p className='mx-auto font-medium text-xl'>OR</p>
                 <div className='mx-auto'>
-                    <button className='flex items-center gap-1 text-base bg-[#2b2a2ac7] text-white py-2 my-4 px-6 rounded-md'><FiGithub className='text-xl'/>Sign in with Github</button>
-                    <PhoneAuth><button className='flex items-center gap-1 text-base bg-[#2fb651] text-white py-2 px-6 rounded-md'><BsTelephoneFill className='text-xl'/>Sign in with phone</button></PhoneAuth>
+                    <button onClick={GithubLogin} className='flex items-center gap-1 text-base bg-[#2b2a2ac7] text-white py-2 my-4 px-6 rounded-md'><FiGithub className='text-xl'/>Sign in with Github</button>
+                    {/* <PhoneAuth><button className='flex items-center gap-1 text-base bg-[#2fb651] text-white py-2 px-6 rounded-md'><BsTelephoneFill className='text-xl'/>Sign in with phone</button></PhoneAuth> */}
+                    <button className='flex items-center gap-1 text-base bg-[#2fb651] text-white py-2 px-6 rounded-md'><BsTelephoneFill className='text-xl'/>Sign in with phone</button>
                 </div>
                 <p className='pt-2 mx-auto text-xs w-3/5 text-center mt-4'>By continuing, you are indicating that you accept our Terms of Service and Privacy Policy.
-</p>
+            </p>
             </div>
         </div>
     );

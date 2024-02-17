@@ -1,17 +1,16 @@
-/* eslint-disable react-refresh/only-export-components */
-import React, { createContext, useEffect, useState } from 'react'
-import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPhoneNumber, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+import React, { createContext, useEffect, useState } from 'react';
+import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPhoneNumber, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import app from '../firebase/firebase.config';
+
 export const AuthContext = createContext(null);
 export const auth = getAuth(app);
+
 const googleProvider = new GoogleAuthProvider();
-const phoneNumber = getPhoneNumberFromUserInput();
+const githubProvider = new GithubAuthProvider(); // Set GitHub provider
 
 export default function AuthProvider({ children }) {
-  const [user, setUser] = useState({})
-  const [loading, setLoading] = useState(true)
-
-
+  const [user, setUser] = useState({});
+  const [loading, setLoading] = useState(true);
 
   const createUser = (email, password) => {
     setLoading(true);
@@ -22,36 +21,43 @@ export default function AuthProvider({ children }) {
     setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   }
+
   const handleGoogleLogin = () =>{
-    return signInWithPopup(auth, googleProvider)
- }
- const phoneSignIn = () => {
-  setLoading(true);
-  return signInWithPhoneNumber(auth, phoneNumber);
-};
+    setLoading(true);
+    return signInWithPopup(auth, googleProvider);
+  }
+
+  const handleGithubLogin = () =>{
+    setLoading(true);
+    return signInWithPopup(auth, githubProvider); // Use GitHub provider for sign-in
+  }
+
+  const phoneSignIn = () => {
+    setLoading(true);
+    return signInWithPhoneNumber(auth, phoneNumber);
+  };
 
   const logOut = () => {
     setLoading(true);
     return signOut(auth);
   }
 
-
   const updateUserProfile = (name, photo) => {
     return updateProfile(auth.currentUser, {
         displayName: name, photoURL: photo
     });
-}
+  }
 
-useEffect(() => {
+  useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, currentUser => {
-        setUser(currentUser);
-        console.log('current user', currentUser);
-        setLoading(false);
+      setUser(currentUser);
+      console.log('current user', currentUser);
+      setLoading(false);
     });
     return () => {
-        return unsubscribe();
+      return unsubscribe();
     }
-}, [])
+  }, []);
 
   const authInfo = {
     user,
@@ -59,10 +65,12 @@ useEffect(() => {
     createUser,
     signIn,
     handleGoogleLogin,
+    handleGithubLogin,
     phoneSignIn,
     logOut,
     updateUserProfile
   }
+
   return (
     <AuthContext.Provider value={authInfo}>
       {children}
