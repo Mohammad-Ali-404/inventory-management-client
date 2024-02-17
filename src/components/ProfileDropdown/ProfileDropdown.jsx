@@ -50,14 +50,14 @@ const ProfileDropdown = () => {
       <div
         onMouseEnter={toggleDropdown}
         onMouseLeave={toggleDropdown}
-        className="flex items-center border py-0 px-2 rounded-2xl gap-1 cursor-pointer hover:border-gray-500  transition duration-100"
+        className="flex items-center border py-0 px-1 rounded-2xl gap-1 cursor-pointer hover:border-gray-500  transition duration-100"
       >
         <div className="rounded-full w-auto overflow-hidden">
           <img
             referrerPolicy="no-referrer"
             src={user?.photoURL}
             alt="Profile"
-            className="h-12 w-10 rounded-full object-cover"
+            className="h-12 w-12 rounded-full object-cover"
           />
         </div>
       </div>
