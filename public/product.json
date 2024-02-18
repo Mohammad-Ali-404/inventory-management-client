@@ -1131,9 +1131,9 @@
         "dimensions": "180(W) x 80(H) x 8.5(D) mm",
         "warrantyPeriod": "1 year",
         "countryOfOrigin": "China",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/FDnxcKd/vr10.jpg",
+        "category":"Technology"
       },
       {
         "title": "EvoVision VR Pro",
@@ -1147,9 +1147,9 @@
         "dimensions": "175(W) x 75(H) x 8(D) mm",
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "South Korea",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/Mnt0WBW/vr8.jpg",
+        "category":"Technology"
       },
       {
         "title": "HyperGaze VR Elite",
@@ -1163,9 +1163,9 @@
         "dimensions": "170(W) x 85(H) x 7.5(D) mm",
         "warrantyPeriod": "3 years",
         "countryOfOrigin": "USA",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/vVvcVRT/vr7.jpg",
+        "category":"Technology"
       },
       {
         "title": "AstralVision VRX-5000",
@@ -1179,9 +1179,9 @@
         "dimensions": "165(W) x 82(H) x 7(D) mm",
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "Japan",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/9tbwpC7/vr6.jpg",
+        "category":"Technology"
       },
       {
         "title": "NebulaVR 360X",
@@ -1195,9 +1195,9 @@
         "dimensions": "155(W) x 79(H) x 7.2(D) mm",
         "warrantyPeriod": "1 year",
         "countryOfOrigin": "China",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/kg8Y71N/vr9.jpg",
+        "category":"Technology"
       },
       {
         "title": "VisionTech VRX-200",
@@ -1211,9 +1211,9 @@
         "dimensions": "185(W) x 77(H) x 8(D) mm",
         "warrantyPeriod": "1 year",
         "countryOfOrigin": "Taiwan",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/hmskL3Y/vr5.jpg",
+        "category":"Technology"
       },
       {
         "title": "FutureVision VR Pro",
@@ -1227,9 +1227,9 @@
         "dimensions": "180(W) x 75(H) x 7.5(D) mm",
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "South Korea",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/KL8Q3zm/vr4.jpg",
+        "category":"Technology"
       },
       {
         "title": "Vortex VRX-3000",
@@ -1243,9 +1243,9 @@
         "dimensions": "170(W) x 80(H) x 8(D) mm",
         "warrantyPeriod": "3 years",
         "countryOfOrigin": "USA",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/yXz1nvS/vr3.jpg",
+        "category":"Technology"
       },
       {
         "title": "NovaTech VRX-400",
@@ -1259,9 +1259,9 @@
         "dimensions": "175(W) x 85(H) x 7.2(D) mm",
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "China",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/RCSgxMG/vr2.jpg",
+        "category":"Technology"
       },
       {
         "title": "InfinityVision VRX-1000",
@@ -1275,9 +1275,9 @@
         "dimensions": "160(W) x 80(H) x 7.5(D) mm",
         "warrantyPeriod": "3 years",
         "countryOfOrigin": "Japan",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/P6JBb3h/vr.jpg",
+        "category":"Technology"
       },
       {
         "title": "Apple Vision Pro",
@@ -1291,8 +1291,8 @@
         "dimensions": "170(W) x 75(H) x 8(D) mm",
         "warrantyPeriod": "2 years",
         "countryOfOrigin": "USA",
-        "product_name":"VR Headsets",
-        "image":"",
-        "category":"Headsets"
+        "product_name":"VR",
+        "image":"https://i.ibb.co/GnYd1CF/hololens-vision-pro.png",
+        "category":"Technology"
       }
     ]
