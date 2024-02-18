@@ -66,7 +66,7 @@ const Banner = () => {
                                     </div>
                                 </div>
                             </Link>
-                            <Link>
+                            <Link to='/contact'>
                                 <div className="flex items-center sm:p-4 p-2 space-x-4 rounded-lg md:space-x-6 bg-gradient-to-r from-[#dee2fa] to-[#d3ecbf]">
                                     <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4">
                                         <FaRegQuestionCircle className='sm:text-4xl text-2xl'/>
